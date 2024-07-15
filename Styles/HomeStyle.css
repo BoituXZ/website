@@ -1,7 +1,31 @@
-.logo{
+body {
+    background-image: "./Images/background.jpg";
+}
+.navigation-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgb(145, 210, 248);
+    color: white;
+}
+.nav-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-item{
+    margin: 10px;
+}
+
+.logo img{
     display: flex;
     justify-content: left;
-    width: 50px;
+    width: 46px;
     max-width: 100%;
-    object-fit: cover;
+    object-fit: cover;;
+}
+body{
+    background-color: rgb(212, 238, 238);
 }
