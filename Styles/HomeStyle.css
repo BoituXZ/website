@@ -10,6 +10,8 @@ nav{
     align-items: center;
     background-color: rgba(123, 196, 245, 0.771);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: auto;
+    height: auto;
 }
 
 nav h1{
@@ -62,6 +64,7 @@ a {
     flex-wrap: wrap;
     margin: auto;
     width: 500px;
+    max-width: max-content;
     padding: 10px;
     border-radius: 3px;
     justify-content: center;
